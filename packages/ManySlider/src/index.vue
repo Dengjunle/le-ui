@@ -35,18 +35,18 @@ export default {
             type: Array,
             default: () => {
                 return [
-                    {
-                        id: new Date().getTime() + parseInt(Math.random() * 1000), // id值
-                        value: 0, // 宽度百分比
-                        diffPrivate: 0, // 总宽度占比位置
-                        color: 'red'//点及左边进度的颜色
-                    },
-                    {
-                        id: new Date().getTime() + parseInt(Math.random() * 1000), // id值
-                        value: 100, // 宽度百分比
-                        diffPrivate: 100, // 总宽度占比位置
-                        color: 'green'//点及左边进度的颜色
-                    }
+                    // {
+                    //     id: new Date().getTime() + parseInt(Math.random() * 1000), // id值
+                    //     value: 0, // 宽度百分比
+                    //     diffPrivate: 0, // 总宽度占比位置
+                    //     color: 'red'//点及左边进度的颜色
+                    // },
+                    // {
+                    //     id: new Date().getTime() + parseInt(Math.random() * 1000), // id值
+                    //     value: 100, // 宽度百分比
+                    //     diffPrivate: 100, // 总宽度占比位置
+                    //     color: 'green'//点及左边进度的颜色
+                    // }
                 ]// 多个滑块数组对象，默认一个
             }
         },
@@ -177,7 +177,7 @@ export default {
                 id: new Date().getTime() + parseInt(Math.random() * 1000), // id值
                 value: 100, // 宽度百分比
                 diffPrivate: 100, // 总宽度占比位置
-                color: this.colorList[this.colorList.length - 1]
+                color: this.colorList[1]
             };
             if (list.length === 0) {
                 list.push(startData,endData)

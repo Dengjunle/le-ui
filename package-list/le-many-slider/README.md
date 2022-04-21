@@ -1,6 +1,15 @@
-# le-many-slider
+# le-many-slider（多滑块组件）
+
+### 自由滑动
+
+![自由滑动](https://github.com/Dengjunle/le-ui/blob/main/layout/le-many-slider/hideStops.gif)
+
+### 间断点滑动
+
+![间断点滑动](https://github.com/Dengjunle/le-ui/blob/main/layout/le-many-slider/showStops.gif)
 
 ## 安装
+
 ```
 npm install le-many-slider
 ```
@@ -23,6 +32,7 @@ export default {
      }
    }
 }
+</script>
 ```
 
 ### 属性
